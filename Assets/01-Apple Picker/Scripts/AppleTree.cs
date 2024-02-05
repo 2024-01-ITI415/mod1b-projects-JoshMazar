@@ -25,6 +25,7 @@ public class AppleTree : MonoBehaviour
     {
         // Limit the framerate to 60
         Application.targetFrameRate = 60;
+
         // Dropping apples every second
         Invoke("DropApple", 1f); // a
     }
